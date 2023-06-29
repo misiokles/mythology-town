@@ -1,0 +1,90 @@
+{
+	"myMedusa":
+	{
+		"name" :
+		{
+			"plural" : "Medusa Gorgons",
+			"singular" : "Medusa Gorgon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "mythology",
+		"level" : 4,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 4,
+			 "max" : 6
+		},
+		"growth" : 8,
+		"hitPoints" : 60,
+		"speed" : 7,
+		"shots" : 24,
+		"fightValue" : 465,
+		"aiValue" : 470,
+		"cost" :
+		{
+			"gold" : 250
+		},
+		"graphics" :
+		{
+			"animation" : "mythology/battle/medusa.def",
+			"map" : "mythology/map/medusa.def",
+			"iconSmall" : "mythology/iconsSmall/medusa.bmp",
+			"iconLarge" : "mythology/iconsBig/medusa.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+                       "attack": "MEDUATTK.wav",
+			"defend": "MEDUDFND.wav",
+			"killed": "MEDUKILL.wav",
+			"move": "LCRSMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "MEDUWNCE.wav"
+
+         },
+		"abilities":
+		{
+			"petrification" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 20,
+			},
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        }
+		}
+	}
+}

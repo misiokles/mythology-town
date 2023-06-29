@@ -1,0 +1,66 @@
+{
+	"niclas" :
+	{
+		"class" : "myStrategist",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Niclas",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystals"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "mythology/heroes/niclas/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/niclas/spec-large.png",
+			"large" : "mythology/heroes/niclas/portrait-large.png",
+			"small" : "mythology/heroes/niclas/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "myCentaurus",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "myFury",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "myTriton",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

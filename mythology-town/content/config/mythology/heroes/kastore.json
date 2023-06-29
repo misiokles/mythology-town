@@ -1,0 +1,70 @@
+{
+	"kastore" : 
+	{
+		"class" : "myStrategist",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Kefalos",
+			"biography" : "Kastore nie chce wyjawic swoim poddanym jego pochodzenia. Wiadomo natomiast, ze jest poteznym elfem-czarnoksieznikiem znajacym wiele sekretow Starozytnych. Przed powstaniem Niebianskich Kuzni byl krolem Dejii. Planuje zdobyc swiat przy pomocy Starozytnej broni i w dazeniu do celu nie cofnie sie przed niczym.",
+			"specialty" : 
+			{
+				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Chain Lightning",
+				"name" : "Chain Lightning"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/kastore/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/kastore/spec-large.png",
+			"large" : "mythology/heroes/kastore/portrait-large.png",
+			"small" : "mythology/heroes/kastore/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+        ],
+
+		"army" :
+		[
+			{
+				"creature" : "myCentaurus",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "myFury",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "myTriton",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

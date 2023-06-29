@@ -1,0 +1,70 @@
+{
+	"myMinotaurLord":
+	{
+		"name" :
+		{
+			"plural" : "Minotaur Lords",
+			"singular" : "Minotaur Lord"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "mythology",
+		"aiValue" : 728,
+		"attack" : 15,
+		"hasDoubleWeek" : true,
+        "cost" : 
+		{
+			"gold" : 775
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 15
+		},
+		"defense" : 15,
+		"fightValue" : 1091,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/CR204.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/CR204.def",
+			"iconSmall" : "mythology/iconsSmall/CPrS204F.bmp",
+			"iconLarge" : "mythology/iconsBig/CPrL204B.bmp",
+			"timeBetweenFidgets" : 1,
+			
+		},
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"shots" : 6,
+		"sound" :
+		{
+			"attack": "MINOATTK.wav",
+			"defend": "MINODFND.wav",
+			"killed": "MINOKILL.wav",
+			"move": "MINOMOVE.wav",
+			"wince": "MINOWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"fearless" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}

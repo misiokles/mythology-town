@@ -1,0 +1,83 @@
+{
+	"myGorilla":
+	{
+		"name" :
+		{
+			"plural" : "Gorillas",
+			"singular" : "Gorilla"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "mythology",
+		"aiValue" : 413,
+		"attack" : 10,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 7
+		},
+		"defense" : 10,
+		"fightValue" : 482,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/Fighter.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/Fighter.def",
+			"iconSmall" : "mythology/iconsSmall/Fighter.bmp",
+			"iconLarge" : "mythology/iconsBig/Fighter.bmp",
+			"timeBetweenFidgets" : 1,
+            "missile" :
+			{
+				"projectile" : "mythology/battle/projectile/SMCatx.DEF",
+			   "offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+                "shots" : 16,
+                "upgrades":
+		[
+			"myFerociousGorilla"
+		],
+		"sound" :
+		{
+			"attack": "OGRMATTK.wav",
+			"defend": "OGRMDFND.wav",
+			"killed": "OGRMKILL.wav",
+			"move": "OGRMMOVE.wav",
+			"shoot": "OGRMSHOT.wav",
+			"wince": "OGRMWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        }
+		}
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"name" : "Mythology",
+	"description" : "Mythology town based on Mythology addon for Heroes 3.",
+	"author" : "Jozsef Csanadi, Zeryss, authors of creature banks defs.",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.2.2",
+	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
+	"changelog" :
+	{
+		"1.2.2"   : [ "Conversion to vcmi-1.2 format" ],
+		"1.2.1"   : [ "New fixes" ],
+		"1.2.0"   : [ "Fixes" ],
+		"1.1.0"   : [ "Puzzle map" ],
+		"1.0.0"   : [ "Initial release" ]
+	},
+	"factions" :
+	[
+		"config/mythology/town/buildings.json",
+		"config/mythology/town/faction.json",
+		"config/mythology/town/siege.json",
+		"config/mythology/town/spells.json",
+		"config/mythology/town/structures.json",
+		"config/mythology/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/mythology/creatures/Centaurus.json",
+		"config/mythology/creatures/CentaurusWarriors.json",
+        "config/mythology/creatures/CentaurusArcher.json",
+        "config/mythology/creatures/Fury.json",
+		"config/mythology/creatures/WitchFury.json",
+		"config/mythology/creatures/Triton.json",
+		"config/mythology/creatures/TritonWarrior.json",
+        "config/mythology/creatures/Cobra.json",
+		"config/mythology/creatures/AncientCobra.json",
+		"config/mythology/creatures/Gorilla.json",
+		"config/mythology/creatures/FerociousGorilla.json",
+		"config/mythology/creatures/Minotaur.json",
+		"config/mythology/creatures/MinotaurLord.json",
+		"config/mythology/creatures/TempleGuard.json",
+		"config/mythology/creatures/TempleDefender.json",
+        "config/mythology/creatures/Medusa.json"
+	],
+	"heroClasses" :
+	[
+		"config/mythology/classes/Strategist.json",
+		"config/mythology/classes/Oracle.json"
+
+	],
+
+	"heroes" :
+	[
+		"config/mythology/heroes/seprinteer.json",
+		"config/mythology/heroes/julian.json",
+		"config/mythology/heroes/Meltes.json",
+		"config/mythology/heroes/singhel.json",
+		"config/mythology/heroes/niclas.json",
+		"config/mythology/heroes/charity.json",
+		"config/mythology/heroes/sunni.json",
+		"config/mythology/heroes/kastore.json",
+		"config/mythology/heroes/rengist.json",
+		"config/mythology/heroes/minore.json",
+		"config/mythology/heroes/leane.json",
+		"config/mythology/heroes/tarkin.json",
+		"config/mythology/heroes/maximus.json",
+		"config/mythology/heroes/cistrict.json",
+		"config/mythology/heroes/karen.json",
+		"config/mythology/heroes/resurrecta.json",
+		
+	],
+	"objects" : [ "config/mythology/dwellings" ]
+}

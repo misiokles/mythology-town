@@ -1,0 +1,94 @@
+{
+	"myTempleDefender":
+	{
+		"name" :
+		{
+			"plural" : "Temple Defenders",
+			"singular" : "Temple Defender"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "mythology",
+		"aiValue" : 4000,
+		"attack" : 32,
+		"cost" :
+		{
+			"gold" : 3500,
+			"crystal" : 3
+		},
+		"damage" :
+		{
+			"max" : 60,
+			"min" : 40
+		},
+		"defense" : 28,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/CR210.def",
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"map" : "mythology/map/7b.def",
+			"iconSmall" : "mythology/iconsSmall/CPrS210F.bmp",
+			"iconLarge" : "mythology/iconsBig/CPrL210B.bmp",
+			"timeBetweenFidgets" : 10
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "mythology/LIOatak.wav",
+			"defend" : "mythology/LIOdefend.wav",
+			"killed" : "mythology/LIOkill.wav",
+			"move"   : "mythology/LIOmove.wav",
+			"wince"  : "mythology/LIOwince.wav"
+                     
+		},
+		"speed" : 15,
+		"abilities" : {
+			"selfluck" : 
+			{ 
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"castsQuicksand" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.quicksand",
+				"val" : 3
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 10
+			},
+			"spellCost" :
+			{
+				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+				"val" : 5
+			},
+		   "KING3":
+			{
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"enemyDefenceReduction" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 80
+			}	
+		}
+	}
+}
+

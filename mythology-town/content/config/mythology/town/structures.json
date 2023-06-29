@@ -1,0 +1,49 @@
+{
+	"mythology" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"mageGuild1":     { "animation" : "mythology/town-screen/buildings/TBDNMAGE.def", "x" : 164, "y" : 119, "z" : -1, "border" : "mythology/town-screen/buildings-border/TODMAG1.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMAG1.bmp" },
+				"mageGuild2":     { "animation" : "mythology/town-screen/buildings/TBDNMAG2.def", "x" : 164, "y" : 97,  "z" : -1, "border" : "mythology/town-screen/buildings-border/TODMAG2.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMAG2.bmp" },
+				"mageGuild3":     { "animation" : "mythology/town-screen/buildings/TBDNMAG3.def", "x" : 164, "y" : 77,  "z" : -1, "border" : "mythology/town-screen/buildings-border/TODMAG3.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMAG3.bmp" },
+				"mageGuild4":     { "animation" : "mythology/town-screen/buildings/TBDNMAG4.def", "x" : 164, "y" : 61,  "z" : -1, "border" : "mythology/town-screen/buildings-border/TODMAG4.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMAG4.bmp" },
+				"mageGuild5":     { "animation" : "mythology/town-screen/buildings/TBDNMAG5.def", "x" : 164, "y" : 15,  "z" : -1, "border" : "mythology/town-screen/buildings-border/TODMAG5.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMAG5.bmp" },
+				"tavern":         { "animation" : "mythology/town-screen/buildings/TBDNTVRN.def", "x" : 211, "y" : 297,           "border" : "mythology/town-screen/buildings-border/TODTAV.bmp",   "area" : "mythology/town-screen/buildings-area/TZDTAV.bmp" },
+				"fort":           { "animation" : "mythology/town-screen/buildings/TBDNCSTL.def", "x" : 363, "y" : 87,  "z" : 2,  "border" : "mythology/town-screen/buildings-border/TODCAS1.bmp",  "area" : "mythology/town-screen/buildings-area/TZDCAS1.bmp" },
+				"citadel":        { "animation" : "mythology/town-screen/buildings/TBDNCAS2.def", "x" : 363, "y" : 87,  "z" : 2,  "border" : "mythology/town-screen/buildings-border/TODCAS2.bmp",  "area" : "mythology/town-screen/buildings-area/TZDCAS2.bmp" },
+				"castle":         { "animation" : "mythology/town-screen/buildings/TBDNCAS3.def", "x" : 363, "y" : 87,  "z" : 2,  "border" : "mythology/town-screen/buildings-border/TODCAS3.bmp",  "area" : "mythology/town-screen/buildings-area/TZDCAS3.bmp" },
+				"villageHall":    { "animation" : "mythology/town-screen/buildings/TBDNHALL.def", "x" : 0,   "y" : 185,           "border" : "mythology/town-screen/buildings-border/TODHALL1.bmp", "area" : "mythology/town-screen/buildings-area/TZDHALL1.bmp" },
+				"townHall":       { "animation" : "mythology/town-screen/buildings/TBDNHAL2.def", "x" : 0,   "y" : 185,           "border" : "mythology/town-screen/buildings-border/TODHALL2.bmp", "area" : "mythology/town-screen/buildings-area/TZDHALL2.bmp" },
+				"cityHall":       { "animation" : "mythology/town-screen/buildings/TBDNHAL3.def", "x" : 0,   "y" : 185,           "border" : "mythology/town-screen/buildings-border/TODHALL3.bmp", "area" : "mythology/town-screen/buildings-area/TZDHALL3.bmp" },
+				"capitol":        { "animation" : "mythology/town-screen/buildings/TBDNHAL4.def", "x" : 0,   "y" : 185, "z" : -1, "border" : "mythology/town-screen/buildings-border/TODHALL4.bmp", "area" : "mythology/town-screen/buildings-area/TZDHALL4.bmp" },
+				"marketplace":    { "animation" : "mythology/town-screen/buildings/TBDNMARK.def", "x" : 590, "y" : 318, "z" : -2, "border" : "mythology/town-screen/buildings-border/TODMARK.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMARK.bmp" },
+				"resourceSilo":   { "animation" : "mythology/town-screen/buildings/TBDNSILO.def", "x" : 624, "y" : 335, "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODSILO.bmp",  "area" : "mythology/town-screen/buildings-area/TZDSILO.bmp" },
+				"blacksmith":     { "animation" : "mythology/town-screen/buildings/TBDNBLAK.def", "x" : 560, "y" : 248, "z" : -3, "border" : "mythology/town-screen/buildings-border/TODSMITH.bmp", "area" : "mythology/town-screen/buildings-area/TZDSMITH.bmp" },
+				"special1":       { "animation" : "mythology/town-screen/buildings/TBDNSPEC.def", "x" : 746, "y" : 294, "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODART.bmp",   "area" : "mythology/town-screen/buildings-area/TZDART.bmp" },
+				"horde1":         { "animation" : "mythology/town-screen/buildings/TBDNHRD1.def", "x" : 0,   "y" : 275, "z" : 2,  "border" : "mythology/town-screen/buildings-border/TODTR1HA.bmp", "area" : "mythology/town-screen/buildings-area/TZDTR1HA.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "mythology/town-screen/buildings/TBDNHRD2.def", "x" : 0,   "y" : 275, "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODTR2HA.bmp", "area" : "mythology/town-screen/buildings-area/TZDTR2HA.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "mythology/town-screen/buildings/TBDNEXT0.def", "x" : 131, "y" : 26 ,           "border" : "mythology/town-screen/buildings-border/TODVOR1A.bmp", "area" : "mythology/town-screen/buildings-area/TZDVOR1A.bmp" },
+				"special3":       { "animation" : "mythology/town-screen/buildings/TBDNEXT1.def", "x" : 687, "y" : 177,           "border" : "mythology/town-screen/buildings-border/TODPORTA.bmp", "area" : "mythology/town-screen/buildings-area/TZDPORTA.bmp" },
+				"special4":       { "animation" : "mythology/town-screen/buildings/TBDNEXT2.def", "x" : 313, "y" : 298,           "border" : "mythology/town-screen/buildings-border/TODACAD.bmp",  "area" : "mythology/town-screen/buildings-area/TZDACAD.bmp" },
+				"grail":          { "animation" : "mythology/town-screen/buildings/TBDNHOLY.def", "x" : 570, "y" : 105,  "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODHOLY.bmp",  "area" : "mythology/town-screen/buildings-area/TZDHOLY.bmp" },
+				"dwellingLvl1":   { "animation" : "mythology/town-screen/buildings/TBDNDW_0.def", "x" : 0,   "y" : 275, "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODTRG1A.bmp", "area" : "mythology/town-screen/buildings-area/TZDTRG1A.bmp" },
+				"dwellingLvl2":   { "animation" : "mythology/town-screen/buildings/TBDNDW_1.def", "x" : 0,   "y" : 26,            "border" : "mythology/town-screen/buildings-border/TODHAR1.bmp",  "area" : "mythology/town-screen/buildings-area/TZDHAR1.bmp" },
+				"dwellingLvl3":   { "animation" : "mythology/town-screen/buildings/TBDNDW_2.def", "x" : 280, "y" : 55, "z" : 1,   "border" : "mythology/town-screen/buildings-border/TODBEH1A.bmp", "area" : "mythology/town-screen/buildings-area/TZDBEH1A.bmp" },
+				"dwellingLvl4":   { "animation" : "mythology/town-screen/buildings/TBDNDW_3.def",  "x" : 532, "y" : 85,           "border" : "mythology/town-screen/buildings-border/TODMED1.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMED1.bmp" },
+				"dwellingLvl5":   { "animation" : "mythology/town-screen/buildings/TBDNDW_4.def", "x" : 570, "y" : 210, "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODMIN1.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMIN1.bmp" },
+				"dwellingLvl6":   { "animation" : "mythology/town-screen/buildings/TBDNDW_5.def", "x" : 270, "y" : 253, "z" : -1, "border" : "mythology/town-screen/buildings-border/TODMAN1.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMAN1.bmp" },
+				"dwellingLvl7":   { "animation" : "mythology/town-screen/buildings/TBDNDW_6.def", "x" : 550, "y" : 0,   "z" : -1, "border" : "mythology/town-screen/buildings-border/TODDRA1A.bmp", "area" : "mythology/town-screen/buildings-area/TZDDRA1A.bmp" },
+				"dwellingUpLvl1": { "animation" : "mythology/town-screen/buildings/TBDNUP_0.def", "x" : 0,   "y" : 275, "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODTRG2A.bmp", "area" : "mythology/town-screen/buildings-area/TZDTRG2A.bmp" },
+				"dwellingUpLvl2": { "animation" : "mythology/town-screen/buildings/TBDNUP_1.def", "x" : 0,   "y" : 26,            "border" : "mythology/town-screen/buildings-border/TODHAR2.bmp",  "area" : "mythology/town-screen/buildings-area/TZDHAR2.bmp" },
+				"dwellingUpLvl3": { "animation" : "mythology/town-screen/buildings/TBDNUP_2.def", "x" : 280, "y" : 15, "z" : 1,   "border" : "mythology/town-screen/buildings-border/TODBEH2A.bmp", "area" : "mythology/town-screen/buildings-area/TZDBEH2A.bmp" },
+				"dwellingUpLvl4": { "animation" : "mythology/town-screen/buildings/TBDNUP_3.def",  "x" : 532, "y" : 85,           "border" : "mythology/town-screen/buildings-border/TODMED2.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMED2.bmp" },
+				"dwellingUpLvl5": { "animation" : "mythology/town-screen/buildings/TBDNUP_4.def", "x" : 525, "y" : 172, "z" : 1,  "border" : "mythology/town-screen/buildings-border/TODMIN2.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMIN2.bmp" },
+				"dwellingUpLvl6": { "animation" : "mythology/town-screen/buildings/TBDNUP_5.def", "x" : 270, "y" : 253, "z" : -1, "border" : "mythology/town-screen/buildings-border/TODMAN2.bmp",  "area" : "mythology/town-screen/buildings-area/TZDMAN2.bmp" },
+				"dwellingUpLvl7": { "animation" : "mythology/town-screen/buildings/TBDNUP_6.def", "x" : 550, "y" : 0,   "z" : -1, "border" : "mythology/town-screen/buildings-border/TODDRA2A.bmp", "area" : "mythology/town-screen/buildings-area/TZDDRA2A.bmp" }
+			}
+		}
+	}
+}
+

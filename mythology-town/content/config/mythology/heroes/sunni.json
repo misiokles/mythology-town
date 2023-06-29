@@ -1,0 +1,56 @@
+{
+	"sunni" : 
+	{
+		"class" : "myStrategist",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Apraksiya",
+			"biography" : "Rodzina Apraksiya od pokolen mieszka w Deyji. Sunnir od dziecka marzyla o odkrywaniu swiata i o dokonywaniu wielkich czynow, jednak jako goblin mogla pelnic u nekromantow role co najwyzej niepozbawionej wlasnej woli sluzacej. Natomiast brak doswiadczenia w walce sprawia, ze nigdy by nie zdobyla szacunku wsrod goblinow z Krewlodu. Dolaczenie do armii Kastore'a to dla niej doskonala okazja zeby udowodnic swoja wartosc.",
+			"specialty" :
+			{
+				"description" : "{Scouting}\r\n\r\nStarts with advanced Scouting",
+				"tooltip" : "Adv. Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/sunni/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/sunni/spec-large.png",
+			"large" : "mythology/heroes/sunni/portrait-large.png",
+			"small" : "mythology/heroes/sunni/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "myCentaurus",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "myFury",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "myTriton",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		"specialty":
+		{
+		}
+	}
+}
+
+

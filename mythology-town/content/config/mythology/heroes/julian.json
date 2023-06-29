@@ -1,0 +1,60 @@
+{
+	"julian" :
+	{
+		"class" : "myStrategist",
+		"female" : false,
+		
+		"texts" :
+		{
+			"name" : "Zefiros",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Gorillas and Ferocious Gorillas}\r\n\r\nIncreases the Attack and Defence of any Gorillas or Ferocious Gorillas for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Gorillas",
+				"name" : "Gorillas"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/julian/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/julian/spec-large.png",
+			"large" : "mythology/heroes/julian/portrait-large.png",
+			"small" : "mythology/heroes/julian/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "myGorilla",
+				"max" : 4,
+				"min" : 3
+			},
+			{
+				"creature" : "myGorilla",
+				"max" : 4,
+				"min" : 3
+			},
+			{
+				"creature" : "myGorilla",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "myGorilla"
+		}		
+	}
+}

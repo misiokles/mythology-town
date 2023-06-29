@@ -1,0 +1,65 @@
+{
+	"myCentaurusWarriors":
+	{
+		"name" :
+		{
+			"plural" : "Centaurus Warriors",
+			"singular" : "Centaurus Warrior"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "mythology",
+		"aiValue" : 97,
+		"attack" : 5,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 80
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 89,
+		"horde" : 10,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/CR200.def",
+			"iconSmall" : "mythology/iconsSmall/CPrS200F.bmp",
+			"iconLarge" : "mythology/iconsBig/CPrL200B.bmp",
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 15,
+		"hitPoints" : 10,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "ECNTATTK.wav",
+			"defend": "ECNTDFND.wav",
+			"killed": "ECNTKILL.wav",
+			"move": "ECNTMOVE.wav",
+			"wince": "ECNTWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+                     "JOUSTING" : 
+			{
+				"type" : "JOUSTING",
+			}
+		}
+	}
+}
+

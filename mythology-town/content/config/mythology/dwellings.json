@@ -1,0 +1,79 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"myCentaurusStables" : {
+				"name" : "Centaurus Stables",
+				"creatures" : [[ "myCentaurus" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "mythology/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"myNestFuries" : {
+				"name" : "Nest Furies",
+				"creatures" : [[ "myFury" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "mythology/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"myMountainCreek" : {
+				"name" : "Mountain Creek",
+				"creatures" : [[ "myTriton" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "mythology/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"myGorillasDen" : {
+				"name" : "Gorillas Den",
+				"creatures" : [[ "myGorilla" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "mythology/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "BAV" ]
+					}
+				}
+			},
+			"myLabyrinth" : {
+				"name" : "Labyrinth",
+				"creatures" : [[ "myMinotaur" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "mythology/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"myCaveSnakes" : {
+				"name" : "Cave Snakes",
+				"creatures" : [[ "myCobra" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "mythology/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"myTemple" : {
+				"name" : "Temple of Jupiter",
+				"creatures" : [[ "myTempleGuard" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "mythology/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

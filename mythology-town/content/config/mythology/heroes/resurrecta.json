@@ -1,0 +1,71 @@
+{
+	"resurrecta" : 
+	{
+		"class" : "myOracle",
+		"female" : true,
+                 "texts" :
+		{
+			"name" : "Minze",
+			"biography" : "Minze nie chce wyjawic nikomu swojego pochodzenia. Planuje odtworzyc system bram Starozytnych. Jest jedna z niewielu osob, ktore znaly Kastore'a przed jego ekspansja na Antadarich i byc moze jedyna, ktora moze go powstrzymac.",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: ResurrectionHero can cast the Resurrection spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/resurrecta/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/resurrecta/spec-large.png",
+			"large" : "mythology/heroes/resurrecta/portrait-large.png",
+			"small" : "mythology/heroes/resurrecta/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{
+				"creature" : "myCentaurus",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "myFury",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "myTriton",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

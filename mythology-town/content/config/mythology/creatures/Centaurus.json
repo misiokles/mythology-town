@@ -1,0 +1,67 @@
+{
+	"myCentaurus":
+	{
+		"name" :
+		{
+			"plural" : "Centauri",
+			"singular" : "Centaurus"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "mythology",
+		"aiValue" : 59,
+		"attack" : 4,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 5,
+		"fightValue" : 66,
+		"horde" : 10,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/CR199.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/CR199.def",
+			"iconSmall" : "mythology/iconsSmall/CPrS199F.bmp",
+			"iconLarge" : "mythology/iconsBig/CPrL199B.bmp",
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 15,
+		"hitPoints" : 8,
+		"level" : 1,
+		"upgrades":
+		[
+			"myCentaurusWarriors"
+		],
+		"sound" :
+		{
+			"attack": "ECNTATTK.wav",
+			"defend": "ECNTDFND.wav",
+			"killed": "ECNTKILL.wav",
+			"move": "ECNTMOVE.wav",
+			"wince": "ECNTWNCE.wav"
+		},
+		"speed" : 6,
+                "abilities" :
+                {
+			"JOUSTING"	:
+			{
+				"type" : "JOUSTING",
+			
+			}
+
+		}
+
+	}
+}

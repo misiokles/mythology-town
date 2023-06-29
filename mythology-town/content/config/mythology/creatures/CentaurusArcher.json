@@ -1,0 +1,79 @@
+{
+	"myCentaurusArcher":
+	{
+		"name" :
+		{
+			"plural" : "Centaurus Archers",
+			"singular" : "Centaurus Archer"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "mythology",
+		"aiValue" : 197,
+		"attack" : 5,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 120
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 189,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/CR201.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/CR201.def",
+			"iconSmall" : "mythology/iconsSmall/CPrS201F.bmp",
+			"iconLarge" : "mythology/iconsBig/CPrL201B.bmp",
+			"timeBetweenFidgets" : 1,
+            "missile" :
+			{
+				"projectile" : "mythology/battle/projectile/SHOT198.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+
+		"growth" : 10,
+		"hitPoints" : 12,
+                "level" : 2,
+		"shots" : 18,
+		"sound" :
+		{
+			"attack": "ECNTATTK.wav",
+			"defend": "ECNTDFND.wav",
+			"killed": "ECNTKILL.wav",
+			"move": "ECNTMOVE.wav",
+			"wince": "ECNTWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+		"freeshooting" :	
+			{
+				"type" : "FREE_SHOOTING"
+			}
+		}
+	}
+}

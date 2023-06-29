@@ -1,0 +1,66 @@
+{
+	"myFury":
+	{
+		"name" :
+		{
+			"plural" : "Furies",
+			"singular" : "Fury"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 25
+		},
+		"faction" : "mythology",
+		"aiValue" : 210,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 115
+		},
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 202,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/CR197.def",
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"map" : "mythology/map/gruntsoldier.def",
+			"iconSmall" : "mythology/iconsSmall/CPrS197F.bmp",
+			"iconLarge" : "mythology/iconsBig/CPrL197B.bmp",
+			"timeBetweenFidgets" : 10
+		},
+            "hasDoubleWeek": true,
+		"growth" : 8,
+		"hitPoints" : 15,
+		"level" : 2,
+		"upgrades":
+		[
+			"myWitchFury"
+		],
+		"sound" :
+		{
+			"attack": "HARPATTK.wav",
+			"defend": "HARPDFND.wav",
+			"killed": "HARPKILL.wav",
+			"move": "HARPMOVE.wav",
+			"wince": "HARPWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"flying" :
+			{
+				"type" : "FLYING"
+			},
+            	       "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}	
+		}
+	}
+}

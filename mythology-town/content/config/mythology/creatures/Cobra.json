@@ -1,0 +1,74 @@
+{
+	"myCobra":
+	{
+		"name" :
+		{
+			"plural" : "Cobras",
+			"singular" : "Cobra"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "mythology",
+		"aiValue" : 5212,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 850
+			
+		},
+		"damage" :
+		{
+			"max" : 25,
+			"min" : 18
+		},
+		"defense" : 12,
+		"fightValue" : 3952,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/Mecha.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/Mecha.def",
+			"iconSmall" : "mythology/iconsSmall/Mecha.bmp",
+			"iconLarge" : "mythology/iconsBig/Mecha.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"upgrades":
+		[
+			"myAncientCobra"
+		],
+		"sound" :
+		{
+			"attack": "NSENATTK.wav",
+			"defend": "NSENDFND.wav",
+			"killed": "NSENKILL.wav",
+			"move": "NSENMOVE.wav",
+			"wince": "NSENWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+
+		"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+                       "poison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+                "val" : 50  
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}

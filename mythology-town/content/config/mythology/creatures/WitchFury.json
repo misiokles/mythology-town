@@ -1,0 +1,71 @@
+{
+	"myWitchFury":
+	{
+		"name" :
+		{
+			"plural" : "Witch Furies",
+			"singular" : "Witch Fury"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "mythology",
+		"aiValue" : 218,
+		"attack" : 7,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 216,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/CR198.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/footsoldier.def",
+			"iconSmall" : "mythology/iconsSmall/CPrS198F.bmp",
+			"iconLarge" : "mythology/iconsBig/CPrL198B.bmp",
+			"timeBetweenFidgets" : 10,
+			
+		},
+
+		"growth" : 9,
+		"hitPoints" : 12,
+                "level" : 2,
+		"shots" : 12,
+		"sound" :
+		{
+			"attack": "HARPATTK.wav",
+			"defend": "HARPDFND.wav",
+			"killed": "HARPKILL.wav",
+			"move": "HARPMOVE.wav",
+			"wince": "HARPWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+            	       "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}	
+		}
+	}
+}
+
