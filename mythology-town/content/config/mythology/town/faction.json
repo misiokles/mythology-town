@@ -1,6 +1,7 @@
 {
 	"mythology" : {
 		"alignment" : "evil",
+		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "mythology/creature-bg-120px", "130px" : "mythology/creature-bg-130px" },
 		"name" : "Mythology",
 		"nativeTerrain" : "dirt",
@@ -31,13 +32,12 @@
 				[ "myCobra", "myAncientCobra"],
 				[ "myTempleGuard", "myTempleDefender" ]
 			],
-			"moatDamage" : 90,
+			"moatAbility" : "necropolisMoat",
 			"horde" : [ 0, -1 ],
-                        "mageGuild" : 5,
+            "mageGuild" : 5,
 			"primaryResource" : "crystal",
 			"warMachine" : "ballista",
 			"buildingsIcons" : "mythology/town-hall.def",
-			"moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
                         "icons" :
 			{
 				"village" : {

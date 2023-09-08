@@ -58,10 +58,11 @@
 			{
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-                     "abilities2":
+            "abilities2":
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2
+				"subtype" : 2,
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
 			}
 		}
 	}
