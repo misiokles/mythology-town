@@ -38,7 +38,7 @@
 			"primaryResource" : "crystal",
 			"warMachine" : "ballista",
 			"buildingsIcons" : "mythology/town-hall.def",
-                        "icons" :
+            "icons" :
 			{
 				"village" : {
 					"normal" : {
