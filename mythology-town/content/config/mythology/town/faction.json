@@ -117,8 +117,8 @@
 				"witch"        : 4,
 				"planeswalker" : 4,
 				"elementalist" : 4,
-				"myOracle"    : 5,
-				"myStrategist"    : 5
+				"myOracle"     : 5,
+				"myStrategist" : 5
 			}
 		}
 	}
