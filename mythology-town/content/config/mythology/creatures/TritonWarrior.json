@@ -51,7 +51,7 @@
 		{
             "abilities1":
 			{
-				"subtype" : 2,
+				"subtype" : "water",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
