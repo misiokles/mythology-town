@@ -1,0 +1,59 @@
+{
+	"pholos" : 
+	{
+		"class" : "myOracle",
+		"female" : false,
+         "texts" :
+		{
+			"name" : "Pholos",
+			"biography" : "undetermined.",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: ResurrectionHero can cast the Disrupting Ray spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Disrupting Ray",
+				"name" : "Disrupting Ray"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "mythology/heroes/pholos/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/pholos/spec-large.png",
+			"large" : "mythology/heroes/pholos/portrait-large.png",
+			"small" : "mythology/heroes/pholos/portrait-small.png"
+		},
+        "spellbook": [ "disruptingRay" ],
+		"army" :
+		[
+			{
+				"creature" : "mylv1",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "mylv2",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "fireMagic", "level": "expert" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"disruptingRay" : {
+					"addInfo" : -2,
+					"subtype" : "spell.disruptingRay",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				}
+			}
+		}
+	}
+}

@@ -1,10 +1,10 @@
 {
 	"mythology" : {
 		"alignment" : "evil",
-		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "mythology/creature-bg-120px", "130px" : "mythology/creature-bg-130px" },
 		"name" : "Mythology",
-		"nativeTerrain" : "dirt",
+		"nativeTerrain": "newtown-terrains.meadlandterrain:meadLand",
+		"boat" : "boatCastle",
 		"town" :
 		{
 			"musicTheme" : "music/mythology/theme",
@@ -24,21 +24,21 @@
 			],
 			"creatures" :
 			[
-				[ "myCentaurus", "myCentaurusWarriors" ],
-				[ "myFury", "myWitchFury" ],
-				[ "myTriton", "myTritonWarrior" ],
-				[ "myGorilla", "myFerociousGorilla" ],
-				[ "myMinotaur", "myMinotaurLord" ],
-				[ "myCobra", "myAncientCobra"],
-				[ "myTempleGuard", "myTempleDefender" ]
+				[ "mylv1", "mylv1up" ],
+				[ "mylv2", "mylv2up" ],
+				[ "mylv3", "mylv3up" ],
+				[ "mylv4", "mylv4up" ],
+				[ "mylv5", "mylv5up" ],
+				[ "mylv6", "mylv6up"],
+				[ "mylv7", "mylv7up" ]
 			],
-			"moatAbility" : "necropolisMoat",
+			"moatAbility" : "dungeonMoat",
 			"horde" : [ 0, -1 ],
             "mageGuild" : 5,
-			"primaryResource" : "crystal",
+			"primaryResource" : "gems",
 			"warMachine" : "ballista",
 			"buildingsIcons" : "mythology/town-hall.def",
-            "icons" :
+                        "icons" :
 			{
 				"village" : {
 					"normal" : {
@@ -99,24 +99,24 @@
 			],
 			"tavern" :
 			{
-				"knight"       : 4,
-				"cleric"       : 4,
-				"ranger"       : 4,
-				"druid"        : 4,
-				"alchemist"    : 4,
-				"wizard"       : 4,
-				"demoniac"     : 4,
-				"heretic"      : 4,
-				"deathknight"  : 4,
-				"necromancer"  : 4,
-				"warlock"      : 4,
-				"overlord"     : 4,
-				"barbarian"    : 4,
-				"battlemage"   : 4,
-				"beastmaster"  : 4,
-				"witch"        : 4,
-				"planeswalker" : 4,
-				"elementalist" : 4,
+				"knight"       : 5,
+				"cleric"       : 5,
+				"ranger"       : 5,
+				"druid"        : 5,
+				"alchemist"    : 5,
+				"wizard"       : 5,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 5,
+				"overlord"     : 5,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 5,
+				"planeswalker" : 5,
+				"elementalist" : 5,
 				"myOracle"     : 5,
 				"myStrategist" : 5
 			}

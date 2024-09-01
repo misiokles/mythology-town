@@ -1,0 +1,107 @@
+{
+	"mylv4up" :
+	{
+		"name" : 
+		{
+			"plural" : "Cyclops Kings",
+			"singular" : "Cyclop King"
+		},
+		"advMapAmount" : 
+		{
+			"max" : 6,
+			"min" : 5
+		},
+		"faction" : "mythology",
+		"attack" : 10,
+		"defense" : 10,
+		"cost" :
+		{
+			"gold" : 390
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"growth" : 4,
+		"hitPoints" : 40,
+		"shots" : 18,
+		"speed" : 6,
+		"level" : 4,
+		"fightValue" : 830,
+		"aiValue" : 921,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/lv4up.def",
+			"map" : "mythology/map/lv4up.def",
+			"iconSmall" : "mythology/iconsSmall/lv4up.bmp",
+			"iconLarge" : "mythology/iconsBig/lv4up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile": "PORCHX.DEF",
+				"attackClimaxFrame" : 9,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "ORCCATTK.wav",
+			"defend": "ORCCDFND.wav",
+			"killed": "ORCCKILL.wav",
+			"move": "ORCCMOVE.wav",
+			"shoot": "ORCCSHOT.wav",
+			"wince": "ORCCWNCE.wav"
+		},
+		"abilities":
+		{
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"siege" : {
+				"subtype" : "spell.cyclopsShot",
+				"type" : "CATAPULT"
+			},
+			"siegeLevel" :
+			{
+				"subtype" : "spell.cyclopsShot",
+				"type" : "CATAPULT_EXTRA_SHOTS",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "SHOTS"
+				},
+				"values" : [0, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+			}
+		]
+	}
+	
+}

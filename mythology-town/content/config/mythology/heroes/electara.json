@@ -1,0 +1,60 @@
+{
+	"electara" : 
+	{
+		"class" : "myOracle",
+		"female" : false,
+         "texts" :
+		{
+			"name" : "Electara",
+			"biography" : "undetermined.",
+			"specialty" : 
+			{
+				"description" : "{Gem + 1}\r\n\r\nIncreases kingdom's income by 1 gem per day",
+				"tooltip" : "+1 Gem each day",
+				"name" : "+1 Gem"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "mythology/heroes/electara/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/electara/spec-large.png",
+			"large" : "mythology/heroes/electara/portrait-large.png",
+			"small" : "mythology/heroes/electara/portrait-small.png"
+		},
+        "spellbook": [ "magicArrow" ],
+		"army" :
+		[
+			{
+				"creature" : "mylv1",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "mylv2",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+       "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "earthMagic", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}
+

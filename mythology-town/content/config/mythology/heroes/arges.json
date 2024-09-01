@@ -1,0 +1,51 @@
+{
+	"arges" :
+	{
+		"class" : "myStrategist",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Arges",
+			"biography" : "wip",
+			"specialty" :
+			{
+				"description" : "{Ballista}\r\n\r\nIncreases Speed of any Ballista by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Ballista",
+				"name" : "Ballista"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/arges/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/arges/spec-large.png",
+			"large" : "mythology/heroes/arges/portrait-large.png",
+			"small" : "mythology/heroes/arges/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "mylv1",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+        "skills":
+		[
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "artillery", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ballista"
+		}		
+	}
+}

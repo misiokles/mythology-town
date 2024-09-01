@@ -1,0 +1,61 @@
+{
+	"pythia" : 
+	{
+		"class" : "myOracle",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Pythia",
+			"biography" : "wip.",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Primary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/pythia/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/pythia/spec-large.png",
+			"large" : "mythology/heroes/pythia/portrait-large.png",
+			"small" : "mythology/heroes/pythia/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "mylv1",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "mylv2",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+		"spellbook": [ "magicArrow" ],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "sorcery", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

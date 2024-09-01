@@ -6,9 +6,9 @@
 			"siege" :
 			{
 				"shooter" : "myMedusa",
-				"imagePrefix" : "mythology/siege/sgfg",
-				"towerIconSmall" : "mythology/icons/arrowtowersmall",
-				"towerIconLarge" : "mythology/icons/arrowtowerslarge",
+				"towerIconSmall" : "mythology/icons/towerSmall",
+				"towerIconLarge" : "mythology/icons/towerLarge",
+				"imagePrefix"    : "mythology/siege/sgfg",
 				"gate" :
 				{
 					"arch" : { "x" : 471, "y" : 165 },

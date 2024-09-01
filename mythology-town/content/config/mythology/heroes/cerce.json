@@ -1,0 +1,60 @@
+{
+	"cerce" : 
+	{
+		"class" : "myOracle",
+		"female" : false,
+         "texts" :
+		{
+			"name" : "Cerce",
+			"biography" : "undetermined.",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: ResurrectionHero can cast the Magic Arrow spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Magic Arrow",
+				"name" : "Magic Arrow"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "mythology/heroes/cerce/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/cerce/spec-large.png",
+			"large" : "mythology/heroes/cerce/portrait-large.png",
+			"small" : "mythology/heroes/cerce/portrait-small.png"
+		},
+        "spellbook": [ "magicArrow" ],
+		"army" :
+		[
+			{
+				"creature" : "mylv1",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "mylv2",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "fireMagic", "level": "expert" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	}
+}

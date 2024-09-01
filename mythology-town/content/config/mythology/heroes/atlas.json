@@ -1,0 +1,57 @@
+{
+	"atlas" :
+	{
+		"class" : "myStrategist",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Atlas",
+			"biography" : "Chociaz posiada niezwykle jak na zombie umiejetnosci (a przede wszystkim potrafi myslec i planowac!). W Dejii uchodzil tylko za jednego z zolnierzy. Don atlas przylaczyl sie do Kastore'a tak szybko jak tylko zdolal",
+			"specialty" :
+			{
+				"description" : "{Colosuss and Titans}\r\n\r\nIncreases Speed of any Colosuss or Titans by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Colosuss",
+				"name" : "Colosuss"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/atlas/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/atlas/spec-large.png",
+			"large" : "mythology/heroes/atlas/portrait-large.png",
+			"small" : "mythology/heroes/atlas/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "mylv7",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "mylv7",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "mylv7",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		"specialty" : {
+			"creature" : "mylv7"
+		}		
+	}
+}

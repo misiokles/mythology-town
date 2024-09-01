@@ -1,0 +1,67 @@
+{
+	"mylv6up":
+	{
+		"name" :
+		{
+			"plural" : "Scorpicores",
+			"singular" : "Scorpicore"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "mythology",
+		"aiValue" : 900,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1050
+		},
+		"damage" :
+		{
+			"max" : 25,
+			"min" : 20
+		},
+		"defense" : 14,
+		"fightValue" : 718,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/lv6up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/lv6up.def",
+			"iconSmall" : "mythology/iconsSmall/lv6up.bmp",
+			"iconLarge" : "mythology/iconsBig/lv6up.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 85,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "SCRPATTK.wav",
+			"defend": "SCRPDFND.wav",
+			"killed": "SCRPKILL.wav",
+			"move": "SCRPMOVE.wav",
+			"shoot": "SCRPSHOT.wav",
+			"wince": "SCRPWNCE.wav"
+                     
+		},
+		"speed" : 10,
+		"abilities":
+		{
+			"paralize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paralyze",
+				"val" : 20
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}
+

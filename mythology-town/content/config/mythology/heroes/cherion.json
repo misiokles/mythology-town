@@ -1,0 +1,55 @@
+{
+	"cherion" :
+	{
+		"class" : "myStrategist",
+		"female" : true,
+
+		
+		"texts" :
+		{
+			"name" : "Cherion",
+			"biography" : "wip.",
+			"specialty" :
+			{
+				"description" : "{Centaurs and Captains Centaurs}\r\n\r\nIncreases the Attack and Defence of any Centaurs or Captains Centaurs for each level attained after 2th level.",
+				"tooltip" : "Creature Bonus: Centaurs",
+				"name" : "Centaurs"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/cherion/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/cherion/spec-large.png",
+			"large" : "mythology/heroes/cherion/portrait-large.png",
+			"small" : "mythology/heroes/cherion/portrait-small.png"
+		},
+
+
+		"army" :
+		[
+			{
+				"creature" : "mylv2",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "mylv2",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "mylv2",
+				"max" : 8,
+				"min" : 6
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "mylv2"
+		}		
+	}
+}

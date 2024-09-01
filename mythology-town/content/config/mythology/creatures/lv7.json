@@ -1,0 +1,108 @@
+{
+	"mylv7" :
+	{
+		"name" :
+		{
+			"singular" : "Colossus",
+			"plural"   : "Colossus"
+		},
+		"faction": "mythology",
+		"level" : 7,
+		"cost" :
+		{
+			"gold" : 2800,
+			"gems" : 2
+		},
+		"doubleWide" : false,
+		"speed" : 7,
+		"hitPoints" : 150,
+		"shots" : 28,
+		"attack" : 18,
+		"defense" : 19,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 45
+		},
+		"fightValue" : 10000,
+		"aiValue" : 20000,
+		"advMapAmount" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		 "upgrades":
+		[
+			"mylv7up"
+		],
+		"abilities" :  //no melee penalty?
+		{
+			"king3" :
+			{
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+		    "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"hateRedDragons" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.redDragon",
+				"val" : 50
+			},
+			"hateblackDragons" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.blackDragon",
+				"val" : 50
+			}
+		},		
+		"graphics" :
+		{
+			"animation" : "mythology/battle/lv7.DEF",
+			"map" : "mythology/map/lv7.def",
+			"iconSmall" : "mythology/iconsSmall/lv7.bmp",
+			"iconLarge" : "mythology/iconsBig/lv7.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.38,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "CPRGTIX",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"upperX" : 11,
+					"upperY" : -131,
+					"middleX" : 76,
+					"middleY" : -87,
+					"lowerX" : 19,
+					"lowerY" : -1
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "LTITATTK.wav",
+			"shoot": "GTITSHOT.wav",
+			"defend": "LTITDFND.wav",
+			"killed": "LTITKILL.wav",
+			"move": "LTITMOVE.wav",
+			"wince": "LTITWNCE.wav"
+		}
+	}
+}

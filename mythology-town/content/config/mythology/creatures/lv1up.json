@@ -1,0 +1,69 @@
+{
+	"mylv1up":
+	{
+		"name" :
+		{
+			"plural"   : "Witch Harpies",
+			"singular" : "Witch Harpy"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "mythology",
+		"aiValue" : 118,
+		"attack" : 4,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 4,
+		"fightValue" : 116,
+		"horde" : 7,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/lv1up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/lv1up.def",
+			"iconSmall" : "mythology/iconsSmall/lv1up.bmp",
+			"iconLarge" : "mythology/iconsBig/lv1up.bmp",
+			"timeBetweenFidgets" : 10,
+			
+		},
+
+		"growth" : 14,
+		"hitPoints" : 5,
+        "level" : 1,
+		"sound" :
+		{
+			"attack": "HARPATTK.wav",
+			"defend": "HARPDFND.wav",
+			"killed": "HARPKILL.wav",
+			"move": "HARPMOVE.wav",
+			"wince": "HARPWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"strikeAndReturn" : 
+			{
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}

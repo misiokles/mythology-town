@@ -1,0 +1,60 @@
+{
+	"sibyl" : 
+	{
+		"class" : "myOracle",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "sibyl",
+			"biography" : "Niewiele wiadomo o prawej rece krola Deyji - kraza plotki, ze jego twarz zostala zdeformowana przez technologie Niebianskiej Kuzni. Nikt jednak nie moze podwazyc jego mistrzowskich wrecz zdolnosci taktycznych.",
+			"specialty" :
+			{
+				"description" : "{Eagle Eye}\r\n\r\nReceives a 5% per level bonus to Eagle Eye skill.",
+				"tooltip" : "Primary Skill Bonus: Eagle Eye",
+				"name" : "Eagle Eye"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/sibyl/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/sibyl/spec-large.png",
+			"large" : "mythology/heroes/sibyl/portrait-large.png",
+			"small" : "mythology/heroes/sibyl/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "mylv1",
+				"max" : 15,
+				"min" : 5
+			},
+			{
+				"creature" : "mylv2",
+				"max" : 9,
+				"min" : 4
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 6,
+				"min" : 3
+			}
+		],
+		"spellbook": [ "dispel" ],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "eagleEye", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"type" : "LEARN_BATTLE_SPELL_CHANCE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}

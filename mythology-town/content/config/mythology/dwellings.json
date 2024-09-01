@@ -1,76 +1,76 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"myCentaurusStables" : {
-				"name" : "Centaurus Stables",
-				"creatures" : [[ "myCentaurus" ]],
+			"myHarpyLoft" : {
+				"name" : "Harpy Loft",
+				"creatures" : [[ "mylv1" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "mythology/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
 			},
-			"myNestFuries" : {
-				"name" : "Nest Furies",
-				"creatures" : [[ "myFury" ]],
+			"myCentaurusStables" : {
+				"name" : "Centaurus Stables",
+				"creatures" : [[ "mylv2" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "mythology/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VVV", "VVB", "VAB" ]
 					}
 				}
 			},
-			"myMountainCreek" : {
-				"name" : "Mountain Creek",
-				"creatures" : [[ "myTriton" ]],
+			"myPegasusWaterfall" : {
+				"name" : "Pegasus Waterfall",
+				"creatures" : [[ "mylv3" ]],
 				"templates" : {
 					"default" : {	
 						"animation" : "mythology/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VVB", "VBB", "VBB", "VBA" ]
 					}
 				}
 			},
-			"myGorillasDen" : {
-				"name" : "Gorillas Den",
-				"creatures" : [[ "myGorilla" ]],
+			"myCaveOfTheCyclops" : {
+				"name" : "Cave of the Cyclops",
+				"creatures" : [[ "mylv4" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "mythology/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "BAV" ]
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
 			},
 			"myLabyrinth" : {
 				"name" : "Labyrinth",
-				"creatures" : [[ "myMinotaur" ]],
+				"creatures" : [[ "mylv5" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "mythology/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "BBA" ]
+						"mask" : [ "VBB", "VAB" ]
 					}
 				}
 			},
-			"myCaveSnakes" : {
-				"name" : "Cave Snakes",
-				"creatures" : [[ "myCobra" ]],
+			"myLair" : {
+				"name" : "Lair of the Manticores",
+				"creatures" : [[ "mylv6" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "mythology/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
 			},
 			"myTemple" : {
-				"name" : "Temple of Jupiter",
-				"creatures" : [[ "myTempleGuard" ]],
+				"name" : "Temple of Thunder",
+				"creatures" : [[ "mylv7" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "mythology/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "BBV", "VBA" ]
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
 			}

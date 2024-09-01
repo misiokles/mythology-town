@@ -1,0 +1,67 @@
+{
+	"mylv3":
+	{
+				"name" : 
+		{
+			"plural" : "Pegasi",
+			"singular" : "Pegasus"
+		},
+		"advMapAmount" : 
+		{
+			"max" : 14,
+			"min" : 10
+		},
+		"faction" : "mythology",
+		"attack" : 7,
+		"defense" : 8,
+		"cost" :
+		{
+			"gold" : 250
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"growth" : 7,
+		"hitPoints" : 22,
+		"speed" : 8,
+		"level" : 3,
+		"fightValue" : 364,
+		"aiValue" : 318,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/lv3",
+			"map" : "mythology/map/lv3",
+			"iconSmall" : "mythology/iconsSmall/lv3",
+			"iconLarge" : "mythology/iconsBig/lv3",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"doubleWide" : true,
+		 "upgrades":
+		[
+			"mylv3up"
+		],
+		"sound" :
+		{
+			"attack": "PEGAATTK.wav",
+			"defend": "PEGADFND.wav",
+			"killed": "PEGAKILL.wav",
+			"move": "PEGAMOVE.wav",
+			"wince": "PEGAWNCE.wav"
+		},
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

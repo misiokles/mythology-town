@@ -1,0 +1,64 @@
+{
+	"mylv6":
+	{
+		"name" :
+		{
+			"plural" : "Manticores",
+			"singular" : "Manticore"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "mythology",
+		"aiValue" : 5212,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 850
+			
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 15
+		},
+		"defense" : 13,
+		"fightValue" : 3952,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/lv6.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/lv6.def",
+			"iconSmall" : "mythology/iconsSmall/lv6.bmp",
+			"iconLarge" : "mythology/iconsBig/lv6.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"upgrades":
+		[
+			"mylv6up"
+		],
+		"sound" :
+		{
+			"attack": "MANTATTK.wav",
+			"defend": "MANTDFND.wav",
+			"killed": "MANTKILL.wav",
+			"move": "MANTMOVE.wav",
+			"shoot": "MANTSHOT.wav",
+			"wince": "MANTWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

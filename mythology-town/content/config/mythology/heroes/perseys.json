@@ -1,0 +1,55 @@
+{
+	"perseys" :
+	{
+		"class" : "myStrategist",
+		"female" : true,
+
+		
+		"texts" :
+		{
+			"name" : "Perseys",
+			"biography" : "wip.",
+			"specialty" :
+			{
+				"description" : "{Pegasi and Silver Pegasi}\r\n\r\nIncreases the Attack and Defence of any Pegasi or Silver Pegasi for each level attained after 3th level.",
+				"tooltip" : "Creature Bonus: Pegasi",
+				"name" : "Pegasi"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "mythology/heroes/perseys/spec-small.png",
+			"specialtyLarge" : "mythology/heroes/perseys/spec-large.png",
+			"large" : "mythology/heroes/perseys/portrait-large.png",
+			"small" : "mythology/heroes/perseys/portrait-small.png"
+		},
+
+
+		"army" :
+		[
+			{
+				"creature" : "mylv3",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "mylv3",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "scouting", "level": "basic" },
+			{ "skill" : "pathfinding", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "mylv3"
+		}		
+	}
+}

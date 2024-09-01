@@ -1,0 +1,65 @@
+{
+	"mylv5":
+	{
+		"name" :
+		{
+			"plural" : "Minotaurs",
+			"singular" : "Minotaur"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "mythology",
+		"aiValue" : 802,
+		"attack" : 14,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 500
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"defense" : 12,
+		"fightValue" : 880,
+		"graphics" :
+		{
+			"animation" : "mythology/battle/lv5.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "mythology/map/lv5.def",
+			"iconSmall" : "mythology/iconsSmall/lv5.bmp",
+			"iconLarge" : "mythology/iconsBig/lv5.bmp",
+			"timeBetweenFidgets" : 1,
+			
+		},
+		"growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"upgrades":
+		[
+			"mylv5up"
+		],
+		"sound" :
+		{
+             "attack": "MINOATTK.wav",
+			"defend": "MINODFND.wav",
+			"killed": "MINOKILL.wav",
+			"move": "MINOMOVE.wav",
+			"wince": "MINOWNCE.wav"                    
+		},
+		"speed" : 6,
+		"abilities":
+		{
+			"fearless" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		}	
+	}
+}

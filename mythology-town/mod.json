@@ -3,14 +3,19 @@
 	"description" : "Mythology town based on Mythology addon for Heroes 3.",
 	"author" : "Jozsef Csanadi, Zeryss, authors of creature banks defs.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.2.4",
+	"version" : "1.3.0",
 	"modType" : "Town",
 	"compatibility" :
 	{
 		"min" : "1.4.0"
 	},	
+	"depends" :
+	[
+		"newtown-terrains.meadlandterrain"
+	],
 	"changelog" :
 	{
+		"1.3.0"   : [ "Changed line-up", "Native Terrain is now Meadow" ],
 		"1.2.4"   : [ "Conversion to vcmi-1.4.0 format" ],
 		"1.2.3"   : [ "Conversion to vcmi-1.3.2 format" ],
 		"1.2.2"   : [ "Conversion to vcmi-1.2 format" ],
@@ -31,21 +36,20 @@
 	],
 	"creatures" :
 	[
-		"config/mythology/creatures/Centaurus.json",
-		"config/mythology/creatures/CentaurusWarriors.json",
-        "config/mythology/creatures/CentaurusArcher.json",
-        "config/mythology/creatures/Fury.json",
-		"config/mythology/creatures/WitchFury.json",
-		"config/mythology/creatures/Triton.json",
-		"config/mythology/creatures/TritonWarrior.json",
-        "config/mythology/creatures/Cobra.json",
-		"config/mythology/creatures/AncientCobra.json",
-		"config/mythology/creatures/Gorilla.json",
-		"config/mythology/creatures/FerociousGorilla.json",
-		"config/mythology/creatures/Minotaur.json",
-		"config/mythology/creatures/MinotaurLord.json",
-		"config/mythology/creatures/TempleGuard.json",
-		"config/mythology/creatures/TempleDefender.json",
+		"config/mythology/creatures/lv1.json",
+		"config/mythology/creatures/lv1up.json",
+        "config/mythology/creatures/lv2.json",
+        "config/mythology/creatures/lv2up.json",
+		"config/mythology/creatures/lv3.json",
+		"config/mythology/creatures/lv3up.json",
+		"config/mythology/creatures/lv4.json",
+        "config/mythology/creatures/lv4up.json",
+        "config/mythology/creatures/lv5.json",
+		"config/mythology/creatures/lv5up.json",
+		"config/mythology/creatures/lv6.json",
+		"config/mythology/creatures/lv6up.json",
+		"config/mythology/creatures/lv7.json",
+		"config/mythology/creatures/lv7up.json",
         "config/mythology/creatures/Medusa.json"
 	],
 	"heroClasses" :
@@ -57,22 +61,23 @@
 
 	"heroes" :
 	[
-		"config/mythology/heroes/seprinteer.json",
-		"config/mythology/heroes/julian.json",
-		"config/mythology/heroes/Meltes.json",
-		"config/mythology/heroes/singhel.json",
-		"config/mythology/heroes/niclas.json",
-		"config/mythology/heroes/charity.json",
-		"config/mythology/heroes/sunni.json",
-		"config/mythology/heroes/kastore.json",
-		"config/mythology/heroes/rengist.json",
-		"config/mythology/heroes/minore.json",
-		"config/mythology/heroes/leane.json",
-		"config/mythology/heroes/tarkin.json",
-		"config/mythology/heroes/maximus.json",
-		"config/mythology/heroes/cistrict.json",
-		"config/mythology/heroes/karen.json",
-		"config/mythology/heroes/resurrecta.json",
+		"config/mythology/heroes/aias.json",
+		"config/mythology/heroes/arges.json",
+		"config/mythology/heroes/atlas.json",
+		"config/mythology/heroes/cassandra.json",
+		"config/mythology/heroes/celaeno.json",
+		"config/mythology/heroes/cerce.json",
+		"config/mythology/heroes/cherion.json",
+		"config/mythology/heroes/electara.json",
+		"config/mythology/heroes/iason.json",
+		"config/mythology/heroes/knossos.json",
+	    "config/mythology/heroes/menelaos.json",
+		"config/mythology/heroes/penelope.json",
+		"config/mythology/heroes/perseys.json",
+		"config/mythology/heroes/pholos.json",
+		"config/mythology/heroes/pythia.json",
+		"config/mythology/heroes/sibyl.json",
+		"config/mythology/heroes/tyreos.json",
 		
 	],
 	"objects" : [ "config/mythology/dwellings" ]

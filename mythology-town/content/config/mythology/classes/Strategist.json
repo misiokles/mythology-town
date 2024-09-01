@@ -17,7 +17,7 @@
 		"primarySkills" :
 		{
 			"attack"     : 3,
-			"defence"    : 1,
+			"defence"    : 2,
 			"spellpower" : 1,
 			"knowledge"  : 1
 		},

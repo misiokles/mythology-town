@@ -23,6 +23,8 @@
 		"growth" : 8,
 		"hitPoints" : 60,
 		"speed" : 7,
+		"doubleWide" : false,
+		"special" : true,
 		"shots" : 24,
 		"fightValue" : 465,
 		"aiValue" : 470,
@@ -69,22 +71,43 @@
 			"wince": "MEDUWNCE.wav"
 
          },
-		"abilities":
+		"abilities" :
 		{
-			"petrification" :
-			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stoneGaze",
-				"val" : 20,
-			},
-		   "canShoot" :
+        		"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
+
+			"magicResistance" :
 			{
-				"type" : "NO_MELEE_PENALTY"
-                        }
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 3
+                  },
+                  "noMind":
+                  {
+                   "type": "MIND_IMMUNITY"
+			}
 		}
 	}
 }
