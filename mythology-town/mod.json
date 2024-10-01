@@ -77,7 +77,7 @@
 		"config/mythology/heroes/pholos.json",
 		"config/mythology/heroes/pythia.json",
 		"config/mythology/heroes/sibyl.json",
-		"config/mythology/heroes/tyreos.json",
+		"config/mythology/heroes/tyreos.json"
 		
 	],
 	"objects" : [ "config/mythology/dwellings" ]
