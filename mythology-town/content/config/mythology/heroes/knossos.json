@@ -1,23 +1,19 @@
 {
-	"knossos" :
-	{
+	"knossos" : {
 		"class" : "myStrategist",
 		"female" : true,
 
 		
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Knossos",
 			"biography" : "wip.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Cyclops and Cyclops Kings}\r\n\r\nIncreases the Attack and Defence of any Cyclops or Cyclops Kings for each level attained after 4th level.",
 				"tooltip" : "Creature Bonus: Cyclops",
 				"name" : "Cyclops"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "mythology/heroes/knossos/spec-small.png",
 			"specialtyLarge" : "mythology/heroes/knossos/spec-large.png",
 			"large" : "mythology/heroes/knossos/portrait-large.png",
@@ -25,8 +21,7 @@
 		},
 
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "mylv4",
 				"max" : 4,
@@ -43,10 +38,9 @@
 				"min" : 2
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "resistance", "level": "basic" }
+		"skills" : [
+			{ "skill" : "leadership", "level" : "basic" },
+			{ "skill" : "resistance", "level" : "basic" }
 		],
 		"specialty" : {
 			"creature" : "mylv4"

@@ -1,13 +1,10 @@
 {
-	"myMedusa":
-	{
-		"name" :
-		{
+	"myMedusa" : {
+		"name" : {
 			"plural" : "Medusa Gorgons",
 			"singular" : "Medusa Gorgon"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 20,
 			"min" : 10
 		},
@@ -15,8 +12,7 @@
 		"level" : 4,
 		"attack" : 8,
 		"defense" : 8,
-		"damage" :
-		{
+		"damage" : {
 			 "min" : 4,
 			 "max" : 6
 		},
@@ -28,29 +24,24 @@
 		"shots" : 24,
 		"fightValue" : 465,
 		"aiValue" : 470,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 250
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "mythology/battle/medusa.def",
 			"map" : "mythology/map/medusa.def",
 			"iconSmall" : "mythology/iconsSmall/medusa.bmp",
 			"iconLarge" : "mythology/iconsBig/medusa.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -61,52 +52,43 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
 		},	
-		"sound" :
-		{
-                       "attack": "MEDUATTK.wav",
-			"defend": "MEDUDFND.wav",
-			"killed": "MEDUKILL.wav",
-			"move": "LCRSMOVE.wav",
-			"shoot": "ZELTSHOT.wav",
-			"wince": "MEDUWNCE.wav"
+		"sound" : {
+                       "attack" : "MEDUATTK.wav",
+			"defend" : "MEDUDFND.wav",
+			"killed" : "MEDUKILL.wav",
+			"move" : "LCRSMOVE.wav",
+			"shoot" : "ZELTSHOT.wav",
+			"wince" : "MEDUWNCE.wav"
 
          },
-		"abilities" :
-		{
-        		"shooter" :
-			{
+		"abilities" : {
+        		"shooter" : {
 				"type" : "SHOOTER"
 			},
 
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 2
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 2
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bloodlust",
 				"val" : 3
                   },
-                  "noMind":
-                  {
-                   "type": "MIND_IMMUNITY"
+                  "noMind" : {
+                   "type" : "MIND_IMMUNITY"
 			}
 		}
 	}

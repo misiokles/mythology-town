@@ -1,13 +1,10 @@
 {
-	"mylv1up":
-	{
-		"name" :
-		{
-			"plural"   : "Witch Harpies",
+	"mylv1up" : {
+		"name" : {
+			"plural" : "Witch Harpies",
 			"singular" : "Witch Harpy"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 16
 		},
@@ -15,20 +12,17 @@
 		"aiValue" : 118,
 		"attack" : 4,
 		"hasDoubleWeek" : true,
-                "cost" :
-		{
+                "cost" : {
 			"gold" : 60
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 2
 		},
 		"defense" : 4,
 		"fightValue" : 116,
 		"horde" : 7,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "mythology/battle/lv1up.def",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "mythology/map/lv1up.def",
@@ -41,27 +35,22 @@
 		"growth" : 14,
 		"hitPoints" : 5,
         "level" : 1,
-		"sound" :
-		{
-			"attack": "HARPATTK.wav",
-			"defend": "HARPDFND.wav",
-			"killed": "HARPKILL.wav",
-			"move": "HARPMOVE.wav",
-			"wince": "HARPWNCE.wav"
+		"sound" : {
+			"attack" : "HARPATTK.wav",
+			"defend" : "HARPDFND.wav",
+			"killed" : "HARPKILL.wav",
+			"move" : "HARPMOVE.wav",
+			"wince" : "HARPWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"strikeAndReturn" : 
-			{
+			"strikeAndReturn" : {
 				"type" : "RETURN_AFTER_STRIKE"
 			},
-			"noRetaliation" : 
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			}
 		}

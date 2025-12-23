@@ -1,28 +1,23 @@
 {
-	"iason" :
-	{
+	"iason" : {
 		"class" : "myStrategist",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Iason",
 			"biography" : "Chociaz posiada niezwykle jak na zombie umiejetnosci (a przede wszystkim potrafi myslec i planowac!). W Dejii uchodzil tylko za jednego z zolnierzy. Don iason przylaczyl sie do Kastore'a tak szybko jak tylko zdolal",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "+350 Gold per day",
 				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold"
 			}
 		}, 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "mythology/heroes/iason/spec-small.png",
 			"specialtyLarge" : "mythology/heroes/iason/spec-large.png",
 			"large" : "mythology/heroes/iason/portrait-large.png",
 			"small" : "mythology/heroes/iason/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "mylv1",
 				"max" : 15,
@@ -39,17 +34,16 @@
 				"min" : 6
 			}
 		],
-        "skills":
-		[
-			{ "skill" : "luck", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+        "skills" : [
+			{ "skill" : "luck", "level" : "basic" },
+			{ "skill" : "offence", "level" : "basic" }
 		],
-		"specialty": {
-			"bonuses": {
+		"specialty" : {
+			"bonuses" : {
 				"gold" : {
-					"type": "GENERATE_RESOURCE",
-					"subtype": "resource.gold",
-					"val": 350
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "gold",
+					"val" : 350
                 }
 			}
 		}

@@ -1,30 +1,25 @@
 {
-	"celaeno" :
-	{
+	"celaeno" : {
 		"class" : "myOracle",
 		"female" : true,
 
 		
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Celaeno",
 			"biography" : "wip.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Harpy and Harpy Witches}\r\n\r\nIncreases the Attack and Defence of any Harpy or Harpy Witches for each level attained after 1th level.",
 				"tooltip" : "Creature Bonus: Harpy",
 				"name" : "Harpy"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "mythology/heroes/celaeno/spec-small.png",
 			"specialtyLarge" : "mythology/heroes/celaeno/spec-large.png",
 			"large" : "mythology/heroes/celaeno/portrait-large.png",
 			"small" : "mythology/heroes/celaeno/portrait-small.png"
 		},
-        "army" :
-		[
+        "army" : [
 			{
 				"creature" : "mylv1",
 				"max" : 14,
@@ -41,11 +36,10 @@
 				"min" : 10
 			}
 		],
-		"spellbook": [ "curse" ],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "scholar", "level": "basic" }
+		"spellbook" : [ "curse" ],
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "scholar", "level" : "basic" }
 		],
 		"specialty" : {
 			"creature" : "mylv1"

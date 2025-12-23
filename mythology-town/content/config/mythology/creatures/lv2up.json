@@ -1,13 +1,10 @@
 {
-	"mylv2up":
-	{
-		"name" :
-		{
+	"mylv2up" : {
+		"name" : {
 			"plural" : "Centaurus Warriors",
 			"singular" : "Centaurus Warrior"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 20
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 297,
 		"attack" : 6,
 		"doubleWide" : true,
-                "cost" :
-		{
+                "cost" : {
 			"gold" : 170
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 4,
 			 "min" : 2
 		},
 		"defense" : 6,
 		"fightValue" : 289,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "mythology/battle/lv2up.def",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "mythology/map/lv2up.def",
@@ -39,19 +33,16 @@
 		"growth" : 15,
 		"hitPoints" : 15,
 		"level" : 2,
-		"sound" :
-		{
-			"attack": "ECNTATTK.wav",
-			"defend": "ECNTDFND.wav",
-			"killed": "ECNTKILL.wav",
-			"move": "ECNTMOVE.wav",
-			"wince": "ECNTWNCE.wav"
+		"sound" : {
+			"attack" : "ECNTATTK.wav",
+			"defend" : "ECNTDFND.wav",
+			"killed" : "ECNTKILL.wav",
+			"move" : "ECNTMOVE.wav",
+			"wince" : "ECNTWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"JOUSTING" : 
-			{
+		"abilities" : {
+			"JOUSTING" : {
 				"type" : "JOUSTING",
 			}
 		}

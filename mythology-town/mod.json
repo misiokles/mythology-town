@@ -3,29 +3,26 @@
 	"description" : "Mythology town based on Mythology addon for Heroes 3.",
 	"author" : "Jozsef Csanadi, Zeryss, authors of creature banks defs.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.3.0",
+	"version" : "1.3.1",
 	"modType" : "Town",
-	"compatibility" :
-	{
-		"min" : "1.4.0"
+	"compatibility" : {
+		"min" : "1.7.0"
 	},	
-	"depends" :
-	[
+	"depends" : [
 		"newtown-terrains.meadlandterrain"
 	],
-	"changelog" :
-	{
-		"1.3.0"   : [ "Changed line-up", "Native Terrain is now Meadow" ],
-		"1.2.4"   : [ "Conversion to vcmi-1.4.0 format" ],
-		"1.2.3"   : [ "Conversion to vcmi-1.3.2 format" ],
-		"1.2.2"   : [ "Conversion to vcmi-1.2 format" ],
-		"1.2.1"   : [ "New fixes" ],
-		"1.2.0"   : [ "Fixes" ],
-		"1.1.0"   : [ "Puzzle map" ],
-		"1.0.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.3.1" : [ "Update to vcmi-1.7 format" ],
+		"1.3.0" : [ "Changed line-up", "Native Terrain is now Meadow" ],
+		"1.2.4" : [ "Conversion to vcmi-1.4.0 format" ],
+		"1.2.3" : [ "Conversion to vcmi-1.3.2 format" ],
+		"1.2.2" : [ "Conversion to vcmi-1.2 format" ],
+		"1.2.1" : [ "New fixes" ],
+		"1.2.0" : [ "Fixes" ],
+		"1.1.0" : [ "Puzzle map" ],
+		"1.0.0" : [ "Initial release" ]
 	},
-	"factions" :
-	[
+	"factions" : [
 		"config/mythology/town/buildings.json",
 		"config/mythology/town/faction.json",
 		"config/mythology/town/siege.json",
@@ -34,8 +31,7 @@
 		"config/mythology/town/puzzle.json"
 
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/mythology/creatures/lv1.json",
 		"config/mythology/creatures/lv1up.json",
         "config/mythology/creatures/lv2.json",
@@ -52,15 +48,13 @@
 		"config/mythology/creatures/lv7up.json",
         "config/mythology/creatures/Medusa.json"
 	],
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/mythology/classes/Strategist.json",
 		"config/mythology/classes/Oracle.json"
 
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/mythology/heroes/aias.json",
 		"config/mythology/heroes/arges.json",
 		"config/mythology/heroes/atlas.json",

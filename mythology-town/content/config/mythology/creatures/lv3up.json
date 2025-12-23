@@ -1,25 +1,20 @@
 {
-	"mylv3up":
-	{
-				"name" : 
-		{
+	"mylv3up" : {
+				"name" : {
 			"plural" : "Silver Pegasi",
 			"singular" : "Silver Pegasus"
 		},
-		"advMapAmount" : 
-		{
+		"advMapAmount" : {
 			"max" : 14,
 			"min" : 10
 		},
 		"faction" : "mythology",
 		"attack" : 8,
 		"defense" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 280
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 3
 		},
@@ -29,33 +24,28 @@
 		"level" : 3,
 		"fightValue" : 364,
 		"aiValue" : 518,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "mythology/battle/lv3up",
 			"map" : "mythology/map/lv3up",
 			"iconSmall" : "mythology/iconsSmall/lv3up",
 			"iconLarge" : "mythology/iconsBig/lv3up",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.00,
 				"idle" : 10.00,
 				"attack" : 1.00
 			}
 		},
 		"doubleWide" : true,
-		"sound" :
-		{
-			"attack": "APEGATTK.wav",
-			"defend": "APEGDFND.wav",
-			"killed": "APEGKILL.wav",
-			"move": "APEGMOVE.wav",
-			"wince": "APEGWNCE.wav"
+		"sound" : {
+			"attack" : "APEGATTK.wav",
+			"defend" : "APEGDFND.wav",
+			"killed" : "APEGKILL.wav",
+			"move" : "APEGMOVE.wav",
+			"wince" : "APEGWNCE.wav"
 		},
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			}
 		}

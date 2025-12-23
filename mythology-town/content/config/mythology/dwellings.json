@@ -27,7 +27,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "mythology/adventure-map/dwelling-3.def",
-						"mask" : [ "VVB", "VBB", "VBB", "VBA" ]
+						"mask" : [ "VVV", "VVV", "VVB", "VBA" ]
 					}
 				}
 			},

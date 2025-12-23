@@ -1,28 +1,21 @@
 {
-	"mythology" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"mythology" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					},
-					"id" : 0
+					
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -31,15 +24,13 @@
 						"gems" : 4,
 						"gold" : 1000
 					},
-					"id" : 1,
+					
 					"upgrades" : "mageGuild1"
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -48,15 +39,13 @@
 						"gems" : 6,
 						"gold" : 1000
 					},
-					"id" : 2,
+					
 					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : 
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -65,15 +54,13 @@
 						"gems" : 8,
 						"gold" : 1000
 					},
-					"id" : 3,
+					
 					"upgrades" : "mageGuild3"
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -82,209 +69,200 @@
 						"gems" : 10,
 						"gold" : 1000
 					},
-					"id" : 4,
+					
 					"upgrades" : "mageGuild4"
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					},
-					"id" : 5
+					
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					},
-					"id" : 7
+					
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					},
-					"id" : 8,
+					
 					"upgrades" : "fort"
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					},
-					"id" : 9,
+					
 					"upgrades" : "citadel"
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
+					
 					"mode" : "auto"
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					},
-					"id" : 11,
+					
 					"requires" : [ "tavern" ],
 					"upgrades" : "villageHall"
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					},
 					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"id" : 12,
+					
 					"upgrades" : "townHall"
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					},
-					"id" : 13,
+					
 					"requires" : [ "castle" ],
 					"upgrades" : "cityHall"
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 14
+					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resourse Silo provides you with an additional +1 gems each day.",
 					"name" : "Resourse Silo",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"requires" : [ "marketplace" ],
-					"id" : 15
+					"produce" : {
+						"gems" : 1
+					},
+					"requires" : [ "marketplace" ]
+					
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Ballista.",
 					"name" : "Blacksmith",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					},
-					"id" : 16
+					"warMachine" : "ballista"
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "The Harpy of Cliff increases weekly production of Harpy by 7 per week.",
 					"name" : "Harpy of Cliff",
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 18,
+					
 					"upgrades" : "dwellingLvl1"
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "The Harpy of Cliff increases weekly production of Witch Harpy by 7 per week.",
 					"name" : "Harpy of Cliff",
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 19,
+					
 					"upgrades" : "dwellingUpLvl1",
 					"requires" : [ "horde1" ],
 					"mode" : "auto"
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "For a nominal fee you can purchase artifacts from the Artifact Merchants.",
 					"name" : "Artifact Merchants",
 					"cost" : {
 						"gold" : 10000
 					}, 
-					"type": "artifactMerchant",
+					"marketModes" : ["resource-artifact", "artifact-resource"],
 					"requires" : [ "marketplace" ],
-					"id" : 17
+					
 				},
-				"special2" :
-				{
+				"special2" : {
 					"description" : "The Mana Vortex Can double the mana of one hero once a week.",
 					"name" : "Mana Vortex",
 					"cost" : {
 						"gold" : 1000
 					},
-					 "type": "manaVortex",
-					"requires" : [ "mageGuild1" ],
-					"id" : 21
+					"configuration" : {
+						"resetParameters" : {
+							"period" : 7,
+							"visitors" : true
+						},
+						"visitMode" : "once",
+						"rewards" : [
+							{
+								"limiter" : {
+									"noneOf" : [ { "manaPercentage" : 200 } ]
+								},
+								"message" : "@core.genrltxt.579",
+								"manaPercentage" : 200
+							}
+						]
+					},
+					"requires" : [ "mageGuild1" ]
 				},
-				"special4":
-				{
+				"special4" : {
 					"name" : "Academy of Battle",
 					"description" : "The Academy of Battle allows +1000 experience once per hero .",
-                                        "cost" : {
+                    "cost" : {
 						"gold" : 1000
 					},
-					"type": "experienceVisitingBonus",
-					"id" : 23 
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.583",
+								"heroExperience" : 1000
+							}
+						]
+					}
 				},
-				"special3":
-				{
+				"special3" : {
 					"name" : "Portal",
-					"description" : "The Portal Once a week, creatures from one of your Outer Dwellings appear randomly to recruit. Dwellings themselves do not lose their growth..",
-                                        "cost" : {
+					"description" : "The Portal Once a week, creatures from one of your Outer Dwellings appear randomly to recruit. Dwellings themselves do not lose their growth.",
+                    "cost" : {
 						"gold" : 2500,
 						"ore" : 5
 					},
-                    "type": "portalOfSummoning",
-					"id" : 22
+                    "type" : "portalOfSummoning"
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : " The power of  The Mars increases weekly creature generation by 50 percent, adds 5000 gold per day, Increases the Defense of any garrison hero by 12 points during an enemy siege..",
 					"name" : " The power of  The Mars",
-					"bonuses": [ { "type": "PRIMARY_SKILL", "subtype": "primarySkill.defence", "val": 12 } ],
-					"id" : 26,
-					"mode" : "grail"
+					"bonuses" : [ { "type" : "PRIMARY_SKILL", "subtype" : "defence", "val" : 12 } ]
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "The Harpy Loft allow to recruit Harpys.",
 					"name" : "Harpy Loft",
 					"cost" : {
@@ -293,10 +271,9 @@
 						"wood" : 5
 					},
 					"requires" : [ "fort" ],
-					"id" : 30
+					
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "The Centaurus Stables allows to recruit Centauri.",
 					"name" : "Centaurus Stables",
 					"cost" : {
@@ -304,10 +281,9 @@
 						"ore" : 10
 					},
 					"requires" : [ "allOf", [ "fort" ], [ "blacksmith" ] ],
-					"id" : 31
+					
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "The Pegasus Waterfall allows to recruit Pegasus.",
 					"name" : "Pegasus Waterfall",
 					"cost" : {
@@ -318,10 +294,9 @@
 						"gems" : 5
 					},
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ],
-					"id" : 32
+					
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "The Cave of the Cyclops allows to recruit Cyclops.",
 					"name" : "Cave of the Cyclops",
 					"cost" : {
@@ -334,10 +309,9 @@
 						"sulfur" : 3
 						},
 					"requires" : [ "allOf", [ "mageGuild1" ],[ "dwellingLvl3" ] ],
-					"id" : 33
+					
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "The Labyrinth allows to recruit Minotaurs.",
 					"name" : "Labyrinth",
 					"cost" : {
@@ -347,10 +321,9 @@
 						"mercury" : 5
 					},
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ],
-					"id" : 34
+					
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "The Lair of the Manticores allows to recruit Manticores.",
 					"name" : "Lair of the Manticores",
 					"cost" : {
@@ -361,10 +334,9 @@
 						"gems" : 5
 					},
 					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl5" ] ],
-					"id" : 35
+					
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "The Temple of Thunder allows to recruit Colossus.",
 					"name" : "Temple of Thunder",
 					"cost" : {
@@ -376,10 +348,9 @@
 						"gems" : 10
 					},
 					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "mageGuild1" ] ],
-					"id" : 36
+					
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "The Harpy Loft allow to recruit Witch Harpys.",
 					"name" : "Upg. Harpy Loft",
 					"cost" : {
@@ -387,11 +358,10 @@
 						"wood" : 5,
 						"ore" : 5
 					},
-					"id" : 37,
+					
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "The Centaurus Stables allows to recruit Centaurus Warriors.",
 					"name" : "Upg. Centaurus Stables",
 					"cost" : {
@@ -399,11 +369,10 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"id" : 38,
+					
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "The Pegasus Waterfall allows to recruit Silver Pegasi.",
 					"name" : "Upg. Pegasus Waterfall",
 					"cost" : {
@@ -411,11 +380,10 @@
 						"ore" : 10,
 						"wood" : 5
 					},
-					"id" : 39,
+					
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Cave of the Cyclops allows to recruit Cyclops Kings.",
 					"name" : "Upg. Cave of the Cyclops",
 					"cost" : {
@@ -425,11 +393,10 @@
 						"gold" : 1500,
 						"crystal" : 5
 					},
-					"id" : 40,
+					
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "The Labyrinth allows to recruit Minotaur Lords.",
 					"name" : "Upg. Labyrinth",
 					"cost" : {
@@ -438,12 +405,11 @@
 						"gold" : 2000,
 						"crystal" : 10
 					},
-					"id" : 41,
+					
 					//"requires" : [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "The Lair of the Manticores allows to recruit Scorpicores.",
 					"name" : "Upg. Lair of the Manticores",
 					"cost" : {
@@ -455,11 +421,10 @@
 						"crystal" : 6,
 						"gems" : 6
 					},
-					"id" : 42,
+					
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "The Temple of Thunder allows to recruit Titans.",
 					"name" : "Upg. Temple of Thunder",
 					"cost" : {
@@ -468,7 +433,7 @@
 						"wood" : 10,
 						"sulfur" : 30
 					},
-					"id" : 43,
+					
 					"upgrades" : "dwellingLvl7"
 				}
 			}

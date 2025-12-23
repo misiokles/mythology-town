@@ -1,23 +1,19 @@
 {
-	"tyreos" :
-	{
+	"tyreos" : {
 		"class" : "myStrategist",
 		"female" : true,
 
 		
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Tyreos",
 			"biography" : "wip.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Manticores and Scorpicores}\r\n\r\nIncreases the Attack and Defence of any Manticores or Scorpicores for each level attained after 6th level.",
 				"tooltip" : "Creature Bonus: Manticores",
 				"name" : "Manticores"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "mythology/heroes/tyreos/spec-small.png",
 			"specialtyLarge" : "mythology/heroes/tyreos/spec-large.png",
 			"large" : "mythology/heroes/tyreos/portrait-large.png",
@@ -25,8 +21,7 @@
 		},
 
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "mylv6",
 				"max" : 2,
@@ -43,10 +38,9 @@
 				"min" : 1
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "tactics", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{ "skill" : "tactics", "level" : "basic" },
+			{ "skill" : "offence", "level" : "basic" }
 		],
 		"specialty" : {
 			"creature" : "mylv6"

@@ -1,30 +1,25 @@
 {
-	"mycassandra" :
-	{
+	"mycassandra" : {
 		"class" : "myOracle",
 		"female" : true,
 
 		
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Cassandra",
 			"biography" : "wip.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
 				"tooltip" : "Secondary Skill Bonus: Scouting",
 				"name" : "Scouting"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "mythology/heroes/cassandra/spec-small.png",
 			"specialtyLarge" : "mythology/heroes/cassandra/spec-large.png",
 			"large" : "mythology/heroes/cassandra/portrait-large.png",
 			"small" : "mythology/heroes/cassandra/portrait-small.png"
 		},
-        "army" :
-		[
+        "army" : [
 			{
 				"creature" : "mylv1",
 				"max" : 15,
@@ -41,22 +36,13 @@
 				"min" : 3
 			}
 		],
-		"spellbook": [ "magicArrow" ],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "scouting", "level": "basic" }
+		"spellbook" : [ "magicArrow" ],
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "scouting", "level" : "basic" }
 		],
-		"specialty": {
-			"bonuses": {
-				"scouting" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SIGHT_RADIUS",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "scouting"
 		}
 	}
 }

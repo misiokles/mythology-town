@@ -1,32 +1,26 @@
 {
-	"mylv1":
-	{
-		"name" :
-		{
+	"mylv1" : {
+		"name" : {
 			"plural" : "Harpies",
 			"singular" : "Harpy"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 30,
 			 "min" : 25
 		},
 		"faction" : "mythology",
 		"aiValue" : 110,
 		"attack" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 50
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 3,
 			 "min" : 1
 		},
 		"defense" : 4,
 		"fightValue" : 102,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "mythology/battle/lv1.def",
 			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
 			"map" : "mythology/map/lv1.def",
@@ -34,32 +28,27 @@
 			"iconLarge" : "mythology/iconsBig/lv1.bmp",
 			"timeBetweenFidgets" : 10
 		},
-        "hasDoubleWeek": true,
+        "hasDoubleWeek" : true,
 		"growth" : 14,
-		"horde"  : 7,
+		"horde" : 7,
 		"hitPoints" : 4,
 		"level" : 1,
-		"upgrades":
-		[
+		"upgrades" : [
 			"mylv1up"
 		],
-		"sound" :
-		{
-			"attack": "HARPATTK.wav",
-			"defend": "HARPDFND.wav",
-			"killed": "HARPKILL.wav",
-			"move": "HARPMOVE.wav",
-			"wince": "HARPWNCE.wav"
+		"sound" : {
+			"attack" : "HARPATTK.wav",
+			"defend" : "HARPDFND.wav",
+			"killed" : "HARPKILL.wav",
+			"move" : "HARPMOVE.wav",
+			"wince" : "HARPWNCE.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-			"flying" :
-			{
+		"abilities" : {
+			"flying" : {
 				"type" : "FLYING"
 			},
-            "strikeAndReturn" : 
-			{
+            "strikeAndReturn" : {
 				"type" : "RETURN_AFTER_STRIKE"
 			}
 		}

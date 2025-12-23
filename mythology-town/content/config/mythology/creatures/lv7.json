@@ -1,15 +1,12 @@
 {
-	"mylv7" :
-	{
-		"name" :
-		{
+	"mylv7" : {
+		"name" : {
 			"singular" : "Colossus",
-			"plural"   : "Colossus"
+			"plural" : "Colossus"
 		},
-		"faction": "mythology",
+		"faction" : "mythology",
 		"level" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2800,
 			"gems" : 2
 		},
@@ -19,72 +16,60 @@
 		"shots" : 28,
 		"attack" : 18,
 		"defense" : 19,
-		"damage" :
-		{
+		"damage" : {
 			 "min" : 35,
 			 "max" : 45
 		},
 		"fightValue" : 10000,
 		"aiValue" : 20000,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "min" : 2,
 			 "max" : 5
 		},
 		"growth" : 1,
-		"hasDoubleWeek": false,
-		 "upgrades":
-		[
+		"hasDoubleWeek" : false,
+		 "upgrades" : [
 			"mylv7up"
 		],
-		"abilities" :  //no melee penalty?
+		"abilities" : //no melee penalty?
 		{
-			"king3" :
-			{
+			"king3" : {
 				"type" : "KING",
 				"val" : 3,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-		    "immuneToMind" : 
-			{
+		    "immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"hateRedDragons" :
-			{
+			"hateRedDragons" : {
 				"type" : "HATE",
 				"subtype" : "creature.redDragon",
 				"val" : 50
 			},
-			"hateblackDragons" : 
-			{
+			"hateblackDragons" : {
 				"type" : "HATE",
 				"subtype" : "creature.blackDragon",
 				"val" : 50
 			}
 		},		
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "mythology/battle/lv7.DEF",
 			"map" : "mythology/map/lv7.def",
 			"iconSmall" : "mythology/iconsSmall/lv7.bmp",
 			"iconLarge" : "mythology/iconsBig/lv7.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.38,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
-				"projectile": "CPRGTIX",
+			"missile" : {
+				"projectile" : "CPRGTIX",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 11,
 					"upperY" : -131,
 					"middleX" : 76,
@@ -95,14 +80,13 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
 		},
-		"sound" :
-		{
-			"attack": "LTITATTK.wav",
-			"shoot": "GTITSHOT.wav",
-			"defend": "LTITDFND.wav",
-			"killed": "LTITKILL.wav",
-			"move": "LTITMOVE.wav",
-			"wince": "LTITWNCE.wav"
+		"sound" : {
+			"attack" : "LTITATTK.wav",
+			"shoot" : "GTITSHOT.wav",
+			"defend" : "LTITDFND.wav",
+			"killed" : "LTITKILL.wav",
+			"move" : "LTITMOVE.wav",
+			"wince" : "LTITWNCE.wav"
 		}
 	}
 }

@@ -1,28 +1,23 @@
 {
-	"aias" : 
-	{
+	"aias" : {
 		"class" : "myStrategist",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Aias",
 			"biography" : "Niewiele wiadomo o prawej rece krola Deyji - kraza plotki, ze jego twarz zostala zdeformowana przez technologie Niebianskiej Kuzni. Nikt jednak nie moze podwazyc jego mistrzowskich wrecz zdolnosci taktycznych.",
-			"specialty" :
-			{
-				"description" : "{logistics}\r\n\r\nReceives a 5% per level bonus to logistics skill.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to logistics skill.",
 				"tooltip" : "Primary Skill Bonus: logistics",
-				"name" : "logistics"
+				"name" : "Logistics"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "mythology/heroes/aias/spec-small.png",
 			"specialtyLarge" : "mythology/heroes/aias/spec-large.png",
 			"large" : "mythology/heroes/aias/portrait-large.png",
 			"small" : "mythology/heroes/aias/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "mylv1",
 				"max" : 15,
@@ -39,22 +34,12 @@
 				"min" : 3
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "armorer", "level": "basic" },
-			{ "skill" : "logistics", "level": "basic" }
+		"skills" : [
+			{ "skill" : "armorer", "level" : "basic" },
+			{ "skill" : "logistics", "level" : "basic" }
 		],
 		"specialty" : {
-			"bonuses" : {
-				"logistics" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"subtype" : "heroMovementLand",
-					"type" : "MOVEMENT",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "logistics"
 		}
 	}
 }

@@ -3,27 +3,24 @@
 		"alignment" : "evil",
 		"creatureBackground" : { "120px" : "mythology/creature-bg-120px", "130px" : "mythology/creature-bg-130px" },
 		"name" : "Mythology",
-		"nativeTerrain": "newtown-terrains.meadlandterrain:meadLand",
+		"nativeTerrain" : "newtown-terrains.meadlandterrain:meadLand",
 		"boat" : "boatCastle",
-		"town" :
-		{
-			"musicTheme" : "music/mythology/theme",
+		"town" : {
+			"musicTheme" : [ "music/mythology/theme" ],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
-			"townBackground": "mythology/town-screen/background",
-			"guildWindow": "mythology/town-screen/mage-guild",
-			"hallBackground": "TPTHBKDG.BMP",
-			"hallSlots":
-			[
+			"townBackground" : "mythology/town-screen/background",
+			"guildWindow" : "mythology/town-screen/mage-guild",
+			"hallBackground" : "TPTHBKDG.BMP",
+			"hallSlots" : [
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "special3" ] ],
 				[ [ "special1" ], [ "special4" ], [ "horde1", "horde1Upgr" ] ],
 				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
 				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
 			],
-			"creatures" :
-			[
+			"creatures" : [
 				[ "mylv1", "mylv1up" ],
 				[ "mylv2", "mylv2up" ],
 				[ "mylv3", "mylv3up" ],
@@ -36,10 +33,8 @@
 			"horde" : [ 0, -1 ],
             "mageGuild" : 5,
 			"primaryResource" : "gems",
-			"warMachine" : "ballista",
 			"buildingsIcons" : "mythology/town-hall.def",
-                        "icons" :
-			{
+                        "icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "mythology/icons/hall-small.bmp",
@@ -76,8 +71,7 @@
 					"village" : { "animation" : "mythology/adventure-map/town-village.def" }
 				}
 			},
-			"names" :
-			[
+			"names" : [
 				
 			    "Xanadu",
 				"Hangval",
@@ -97,27 +91,26 @@
 				"Rael"
 
 			],
-			"tavern" :
-			{
-				"knight"       : 5,
-				"cleric"       : 5,
-				"ranger"       : 5,
-				"druid"        : 5,
-				"alchemist"    : 5,
-				"wizard"       : 5,
-				"demoniac"     : 5,
-				"heretic"      : 5,
-				"deathknight"  : 5,
-				"necromancer"  : 5,
-				"warlock"      : 5,
-				"overlord"     : 5,
-				"barbarian"    : 5,
-				"battlemage"   : 5,
-				"beastmaster"  : 5,
-				"witch"        : 5,
+			"tavern" : {
+				"knight" : 5,
+				"cleric" : 5,
+				"ranger" : 5,
+				"druid" : 5,
+				"alchemist" : 5,
+				"wizard" : 5,
+				"demoniac" : 5,
+				"heretic" : 5,
+				"deathknight" : 5,
+				"necromancer" : 5,
+				"warlock" : 5,
+				"overlord" : 5,
+				"barbarian" : 5,
+				"battlemage" : 5,
+				"beastmaster" : 5,
+				"witch" : 5,
 				"planeswalker" : 5,
 				"elementalist" : 5,
-				"myOracle"     : 5,
+				"myOracle" : 5,
 				"myStrategist" : 5
 			}
 		}
